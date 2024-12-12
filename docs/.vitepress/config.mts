@@ -6,23 +6,25 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
+    nav: [{ text: "Home", link: "/" }],
 
     sidebar: [
       {
-        text: "Examples",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Home", link: "/" },
+          { text: "About", link: "/about" },
+          { text: "Posts", link: "/posts" },
+          { text: "Tags", link: "/tags" },
         ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "twitter", link: "https://twitter.com/sheagrief" },
+      { icon: "github", link: "https://github.com/sheagrief" },
     ],
+  },
+  markdown: {
+    math: true,
   },
 });
