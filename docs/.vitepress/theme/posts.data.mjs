@@ -7,7 +7,9 @@ export default createContentLoader("posts/*/*.md", {
       .filter((page) => page.url != "/posts/")
       .sort((a, b) => {
         // date DESC
-        return +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date);
+        return (
+          +new Date(b.frontmatter.created) - +new Date(a.frontmatter.created)
+        );
       })
       .map((page) => {
         page.relativePath =
