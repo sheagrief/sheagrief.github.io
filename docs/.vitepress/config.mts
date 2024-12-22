@@ -28,4 +28,18 @@ export default defineConfig({
   markdown: {
     math: true,
   },
+  head: [
+    [
+      "script",
+      {
+        async: ``,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-X3NH9BBVK1",
+      },
+    ],
+    [
+      "script",
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X3NH9BBVK1');",
+    ],
+  ],
 });
