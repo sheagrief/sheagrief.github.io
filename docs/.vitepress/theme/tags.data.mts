@@ -21,7 +21,7 @@ export default createContentLoader(["posts/*/*.md", "notes/*.md"], {
         return acc;
       }
 
-      const tags: string[] = post.frontmatter.tags ?? [];
+      const tags: string[] = post.frontmatter.tags ?? ["未分類"];
       tags.forEach((tag) => {
         if (!hasOwnProperty(acc, tag)) {
           acc[tag] = [];
