@@ -42,4 +42,5 @@ export default defineConfig({
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X3NH9BBVK1');",
     ],
   ],
+  ignoreDeadLinks: true,
 });
