@@ -5,8 +5,6 @@ next: false
 prev: false
 ---
 
-# Ascoli-Arzelà theorem について
-
 ## 定理
 
 いくつかのバージョンがあるが、以下のものが一般的である。([[Con97, 3.8]](Con97.md) on page 175)
