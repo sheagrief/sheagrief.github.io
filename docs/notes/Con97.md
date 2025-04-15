@@ -5,6 +5,4 @@ next: false
 prev: false
 ---
 
-# A Course in Functional Analysis
-
 ![alt text](/conway.png)
