@@ -9,6 +9,8 @@ AQFT の輝かしい成果の 1 つ。Doplicher, Haag, Roberts による。
 
 ## admissible representation
 
+場の量子論では、量子力学と異なり互いに同値ではないような表現が無数に取れる。その中には物理的でないような表現も含まれている。そこでHaag-Kastlerネットに対して、どのような表現を考えるのか？という問いに対し、DHR 理論では admissible representation というものを考える。
+
 任意の二重錐に対して、その外側では真空表現と区別がつかないようなもの。そのような表現だけが選ばれるという話。
 
 ## DHR category
